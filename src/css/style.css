@@ -1,0 +1,277 @@
+body {
+    overflow-x: hidden;
+}
+.listing1 .listing2 {
+    display: inline-block;
+    padding: 18px;
+
+}
+/* Added listing1 class */
+.listing1 {
+    float: right;
+    position: relative;
+    right: 9%;
+    bottom: 10px;
+}
+.pro1 {
+    color: blue;
+}
+.site-logo {
+    position: relative;
+    top: 41px;
+    left: 11%;
+    font-family: sans-serif;
+}
+/* defined style class for box3 */
+.box3 {
+    background: #e3e3e3;
+    height: 235px;
+    padding: 10px;
+    margin-top: 38px;
+    width: 84%;
+    margin: auto;
+    position: relative;
+    left: 0%;
+    top: 27px;
+}
+.power-text {
+    margin-left: 8%;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.text-div {
+    width: 400px;
+}
+.power-text2 {
+    margin-left: 8%;
+    padding: 4px;
+}
+.first1 {
+    background: #e3e3e3;
+    width: 300px;
+    height: 150px;
+}
+.main-block {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 93px;
+}
+.first-block {
+    margin: 35px;
+    padding: 7px;
+}
+/* defined second-block class */
+.second-block {
+    margin: 35px;
+    padding: 7px;
+}
+.third-block {
+    margin: 35px;
+    padding: 7px;
+}
+.heading1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.heading2 {
+    text-align: center;
+    line-height: 2%;
+}
+.heading3 {
+    text-align: center;
+}
+.learn {
+    margin-left: 36%;
+    color: black;
+    text-transform: UPPERCASE;
+}
+.comm {
+    background: #e3e3e3;
+    width: 84%;
+    margin: auto;
+    padding: 13px;
+    display: flex;
+}
+.comm1 {
+    margin-left: 19%;
+    font-family: sans-serif;
+}
+.comm2 {
+    margin-top: 24px;
+    margin-left: 4%;
+}
+/* Added css for textbox  */
+.textplace {
+    width: 256px;
+    height: 33px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.button1 {
+    margin-left: 7%;
+    background: #288acf;
+    color: #fff;
+    border: none;
+    width: 209px;
+    height: 41px;
+}
+
+.comm3 {
+    margin-top: 22px;
+}
+
+.submit-text {
+    margin-left: -58px;
+    font-weight: 800;
+}
+
+.copyright1 {
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+.copyright2 {
+    margin-left: 78%;
+    font-weight: 500;
+    margin-top: -3%;
+    font-family: sans-serif;
+}
+
+/* Added media query */
+
+@media(max-width:992px) {
+    .listing1 .listing2 {
+        display: block;
+        padding: 18px;
+
+    }
+
+    .listing1 {
+        margin: auto;
+        display: flex;
+        text-align: center;
+    }
+
+    .pro1 {
+        color: blue;
+    }
+
+    .site-logo {
+        text-align: center;
+        position: absolute;
+
+    }
+
+    .box3 {
+        background: #e3e3e3;
+        height:auto;
+        margin-top: 38px;
+    }
+
+    .text-div {
+        width: 100%;
+    }
+
+    .main-block {
+        margin: auto;
+        display: block;
+    }
+/* Added heading */
+    .heading1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .heading2 {
+        text-align: center;
+        line-height: 2%;
+    }
+
+    .heading3 {
+        text-align: center;
+    }
+
+    .comm {
+        background: #e3e3e3;
+        width: 84%;
+        margin: auto;
+        padding: 13px;
+        display: block;
+    }
+
+    .first-block {
+        margin: auto;
+        display: block;
+        margin-top: 38px;
+        text-align:center;
+    }
+
+    .second-block {
+        margin: auto;
+        display: block;
+        margin-top: 38px;
+        text-align:center;
+    }
+
+    .third-block {
+        margin: auto;
+        display: block;
+        margin-top: 38px;
+        text-align:center;
+    }
+
+    .comm2 {
+        margin: auto;
+        display: block;
+        text-align: center;
+
+    }
+
+    .comm1 {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .button1 {
+        margin: auto;
+        display: block;
+    }
+
+    .copyright2 {
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .copyright1 {
+
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-top: 9px;
+    }
+    .learn
+    {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    
+    .first1
+    {
+        width:100%;
+    }
+    .textplace
+    {
+        width:100%;
+    }
+    /* Added media query for class power text */
+    .power-text
+    {
+        font-size:20px;
+    }
+}
