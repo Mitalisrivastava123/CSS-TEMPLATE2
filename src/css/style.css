@@ -24,7 +24,7 @@ body {
 }
 /* defined style class for box3 */
 .box3 {
-    background: #d5d6d7;
+    background: #eeeeee;
     height: 235px;
     padding: 10px;
     margin-top: 38px;
@@ -48,7 +48,7 @@ body {
     padding: 4px;
 }
 .first1 {
-    background: #d5d6d7;
+    background: #eeeeee;
     width: 300px;
     height: 150px;
 }
@@ -87,7 +87,7 @@ body {
     text-transform: UPPERCASE;
 }
 .comm {
-    background: #d5d6d7;
+    background: #eeeeee;
     width: 84%;
     margin: auto;
     padding: 13px;
@@ -165,7 +165,7 @@ body {
     }
 
     .box3 {
-        background: #d5d6d7;
+        background: #eeeeee;
         height:auto;
         margin-top: 38px;
     }
@@ -194,7 +194,7 @@ body {
     }
 
     .comm {
-        background: #d5d6d7;
+        background: #eeeeee;
         width: 84%;
         margin: auto;
         padding: 13px;
