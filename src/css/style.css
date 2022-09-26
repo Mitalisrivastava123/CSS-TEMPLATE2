@@ -275,14 +275,14 @@ body {
     {
         font-size:20px;
     }
-  
-    @media screen and (min-width: 1024px) {
-     .main-block
-     {
-        margin:auto;
-        display: block;
-     }
-   
-    }
-
 }
+
+    @media(min-width:1024px) {
+        .main-block
+        {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+    
+        }
